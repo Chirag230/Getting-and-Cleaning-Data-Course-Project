@@ -34,3 +34,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets,
 where 70% of the volunteers was selected for generating the training data and 30% the test data.
+
+About variables:
+x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+x_data, y_data and subject_data merge the previous datasets to further analysis.
+features contains the correct names for the x_data dataset, which are applied to the column names stored in
